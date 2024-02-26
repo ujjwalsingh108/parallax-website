@@ -1,0 +1,26 @@
+#header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  .title {
+    font-weight: 500;
+    font-family: fantasy;
+    font-size: large;
+    color: var(--primary-even-color);
+  }
+  .icon {
+    color: var(--primary-icon-color);
+    :hover {
+      color: var(--primary-even-color);
+      cursor: pointer;
+    }
+  }
+
+  .input {
+    border-radius: 10px;
+    transition: width 0.5s ease;
+  }
+}

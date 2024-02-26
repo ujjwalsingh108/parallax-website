@@ -1,0 +1,63 @@
+#purchase {
+  padding: 2rem;
+  .purchase-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .purchase-component {
+    .purchase-component-title {
+      font-weight: 200;
+    }
+    .purchase-text {
+      display: block;
+      font-weight: 350;
+      font-size: large;
+      margin-bottom: 2rem;
+      text-align: justify;
+    }
+  }
+  .card-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    .card-title {
+      font-weight: 600;
+      font-size: 3rem;
+      margin-left: 1rem;
+    }
+    .card-text-1 {
+      display: block;
+      font-weight: 400;
+      font-size: larger;
+    }
+    .rate {
+      font-size: medium;
+      margin-right: 1rem;
+      color: green;
+    }
+    .rate-num {
+      font-size: larger;
+      font-weight: 400;
+    }
+    .dolor {
+      display: block;
+      font-weight: 500;
+      font-size: 2rem;
+    }
+    .btn {
+      background-color: green;
+      color: #fff;
+      font-weight: 400;
+      font-size: larger;
+      width: 10rem;
+      height: 3rem;
+      margin-left: -2.2rem;
+    }
+    .card-about-text {
+      font-weight: 400;
+      font-size: medium;
+    }
+  }
+}
