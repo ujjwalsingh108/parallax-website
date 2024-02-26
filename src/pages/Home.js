@@ -19,7 +19,7 @@ const data = [
     end: 100,
     properties: [
       {
-        startValue: 1.4,
+        startValue: 1.3,
         endValue: 1.5,
         property: "scale",
       },
@@ -31,18 +31,7 @@ const data = [
     properties: [
       {
         startValue: 1.5,
-        endValue: 1,
-        property: "scale",
-      },
-    ],
-  },
-  {
-    start: 150,
-    end: 250,
-    properties: [
-      {
-        startValue: 1,
-        endValue: 1.5,
+        endValue: 0.8,
         property: "scale",
       },
     ],
@@ -55,12 +44,10 @@ function Home() {
   const imageWrapperRef = React.useRef(null);
   const communityIconRef = React.useRef(null);
   const [showHeader, setShowHeader] = React.useState(true);
-  const [scrollPosition, setScrollPosition] = React.useState(0);
 
   React.useEffect(() => {
     const handleScroll = () => {
       const currentPosition = window.scrollY;
-      setScrollPosition(currentPosition);
       setShowHeader(currentPosition <= 50);
     };
     window.addEventListener("scroll", handleScroll);
