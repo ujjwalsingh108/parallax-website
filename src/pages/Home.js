@@ -62,23 +62,18 @@ function Home() {
         <div className="video-container">
           <Introduction />
           <HomeButton />
-          <iframe
+          <video
             title="YouTube Video"
             width="100%"
             height="100%"
-            src={youtubeLink}
-            frameborder="0"
-            allowfullscreen
+            src={"/video/gaming.mp4"}
+            autoPlay={true}
+            controls={true}
           />
         </div>
       </Plx>
       <div ref={imageWrapperRef} className="image-wrapper">
-        <Image
-          src="/images/skate.jpg"
-          className="about-image"
-          preview={false}
-        />
-        <About className="about" />
+        <About />
       </div>
       <div ref={communityTabRef} className="community-wrapper">
         <CommunityTab />

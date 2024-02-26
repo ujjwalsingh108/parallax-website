@@ -5,49 +5,44 @@
   position: relative;
   width: 100vw;
   height: 100vh;
-}
+  .visible {
+    display: block;
+    position: fixed;
+    top: 35%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: #fff;
+  }
 
-.visible {
-  display: block;
-  position: fixed;
-  top: 35%;
-  left: 40%;
-  transform: translate(-50%, -50%);
-  z-index: 1;
-  color: #fff;
-}
+  .hidden {
+    display: none;
+  }
 
-.hidden {
-  display: none;
-}
+  .intro {
+    font-size: 40px;
+    font-weight: 400;
+    color: #ebe9e9;
+    display: block;
+    margin-bottom: -20px;
+  }
 
-.intro {
-  font-size: 40px;
-  font-weight: 400;
-  color: #ebe9e9;
-  display: block;
-  margin-bottom: -20px;
-}
-
-.btn {
-  z-index: 2;
-  position: absolute;
-  top: 55%;
-  left: 17%;
+  .btn {
+    z-index: 2;
+    display: block;
+    position: fixed;
+    top: 55%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+  }
 }
 
 .image-wrapper {
   position: relative;
   width: 100%;
-}
-
-.about {
-  width: 100%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 3;
+  height: 100vh;
+  background-color: rgb(37, 25, 2);
+  padding: 13rem 0;
   .about-title {
     color: #ebe9e9;
     margin-left: 5rem;
@@ -67,10 +62,11 @@
 }
 
 .community-wrapper {
+  position: relative;
   width: 100%;
   height: 100vh;
   background-color: rgb(234, 154, 6);
-  padding: 10rem 5rem;
+  padding: 10% 7%;
   .community-title {
     display: block;
     font-size: 45px;
