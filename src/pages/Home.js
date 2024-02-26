@@ -20,18 +20,7 @@ const data = [
     properties: [
       {
         startValue: 1.3,
-        endValue: 1.5,
-        property: "scale",
-      },
-    ],
-  },
-  {
-    start: 100,
-    end: 150,
-    properties: [
-      {
-        startValue: 1.5,
-        endValue: 0.8,
+        endValue: 1.8,
         property: "scale",
       },
     ],
