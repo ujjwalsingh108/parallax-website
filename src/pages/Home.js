@@ -62,14 +62,10 @@ function Home() {
         <div className="video-container">
           <Introduction />
           <HomeButton />
-          <video
-            title="YouTube Video"
-            width="100%"
-            height="100%"
-            src={"/video/gaming.mp4"}
-            autoPlay={true}
-            controls={true}
-          />
+          <video width="100%" height="100%" autoPlay={true} muted>
+            <source src="/video/gaming.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
         </div>
       </Plx>
       <div ref={imageWrapperRef} className="image-wrapper">
