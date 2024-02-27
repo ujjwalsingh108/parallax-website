@@ -10,8 +10,8 @@ import CommunityIcon from "../components/CommunityIcon";
 import { useParams } from "react-router-dom";
 import "../styles/home.css";
 
-const youtubeLink =
-  "https://www.youtube.com/embed/B1TRRiLOw0Q?autoplay=1&mute=1&controls=0&modestbranding=1&showinfo=0&iv_load_policy=3?rel=0";
+// const youtubeLink =
+//   "https://www.youtube.com/embed/B1TRRiLOw0Q?autoplay=1&mute=1&controls=0&modestbranding=1&showinfo=0&iv_load_policy=3?rel=0";
 
 const data = [
   {
